@@ -28,12 +28,12 @@ print(f"{ma} est le poduit le plus cher")
 mi = min(tup,key=lambda b: b[1])
 print(f"{mi} est le produit le moins cher")
 
-def bonus(prix):
-    return produits + LUXE
-    for x in prix:
-        if prix > 1000:
-            resultat = list(map(bonus,prix))
-            print(resultat)
+# def bonus(prix):
+#     return produits + LUXE
+#     for x in prix:
+#         if prix > 1000:
+#             resultat = list(map(bonus,prix))
+#         print(resultat)
 
 
 
