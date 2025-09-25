@@ -8,4 +8,10 @@ resultat = list(filter(prix_superieur,prix))
 print(resultat)
 
 for produits,prix  in A:
-        print(f"produit {produits} coute {prix}DH")
+    print(f"produit {produits} coute {prix}DH")
+
+
+A.sort(key=lambda x: x[1])
+print(A)
+
+
