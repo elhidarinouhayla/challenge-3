@@ -14,4 +14,7 @@ for produits,prix  in A:
 A.sort(key=lambda x: x[1])
 print(A)
 
+tup = tuple(A)
+print(tup)
+
 
