@@ -1,5 +1,4 @@
-produits = ["clavier", "souris", "ecran", "chaise", "bureau", "lampe"]
-prix = [45, 150, 1200, 855, 2000, 25]
+from data import produits,prix
 A = list(zip(produits,prix))
 print(A)
 
